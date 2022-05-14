@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
-# Redesigned By - @bipuldey19 (https://github.com/SlamDevs/slam-mirrorbot/commit/1e572f4fa3625ecceb953ce6d3e7cf7334a4d542#diff-c3d91f56f4c5d8b5af3d856d15a76bd5f00aa38d712691b91501734940761bdd)
-
 from logging import getLogger, FileHandler, StreamHandler, INFO, basicConfig as log_Config
 
 
@@ -227,8 +223,8 @@ input[type="submit"]:hover, input[type="submit"]:focus{
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="."></i></a>
+        <a href="."></i></a>
       </div>
     </header>
     <div id="sticks">
@@ -619,8 +615,8 @@ section span{
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="."></i></a>
+        <a href="."></i></a>
       </div>
     </header>
     <section>
@@ -755,7 +751,7 @@ def set_priority(hash_id):
 
 @app.route('/')
 def homepage():
-    return "<h1>See mirror-leech-telegram-bot <a href='https://www.github.com/anasty17/mirror-leech-telegram-bot'>@GitHub</a> By <a href='https://github.com/anasty17'>Anas</a></h1>"
+    return "<h1>See mirror-leech-telegram-bot <a href='.'>.</a></h1>"
 
 @app.errorhandler(NotFound404Error)
 def page_not_found(e):
