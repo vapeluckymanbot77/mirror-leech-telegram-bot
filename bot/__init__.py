@@ -51,7 +51,7 @@ try:
     if len(SERVER_PORT) == 0:
         raise KeyError
 except:
-    SERVER_PORT = 80
+    SERVER_PORT = 88
 
 PORT = environ.get('PORT', SERVER_PORT)
 alive = Popen(["python3", "alive.py"])
